@@ -3,18 +3,26 @@ import React from 'react'
 import FlatCards from './Components/FlatCards'
 import ElevatedCard from './Components/ElevatedCard'
 import FancyCard from './Components/FancyCard'
+import { View } from 'react-native'
+import GapBottom from './Components/GapBottom'
+import ActionCard from './Components/ActionCard'
 // import {  } from 'react-native-web'
 
 const App = () => {
   return (
     <SafeAreaView>
+      <View style={{ marginTop: 30 }}></View>
+
       <ScrollView>
         <Text>Hello React Developer</Text>
         <FlatCards />
         <ElevatedCard />
         <FancyCard />
-        {/* <ElevatedCard /> */}
+        <ActionCard />
 
+
+
+        <GapBottom />
       </ScrollView>
     </SafeAreaView>
   )

@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Image } from 'react-native'
 import React from 'react'
-import { ScrollView } from 'react-native-web';
+import { ScrollView } from 'react-native';
 
 const FancyCard = () => {
     return (
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         width: 350,
         // height: 360,
         borderRadius: 6,
-        marginVertical: 12,
+        marginVertical: 10,
         marginHorizontal: 16
     },
     cardElevated: {
